@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-username/gradle-java-project.git', branch: 'main'
+                git url: '', branch: 'main'
             }
         }
 
