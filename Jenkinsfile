@@ -10,13 +10,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat './gradlew clean build'
+                bat 'gradlew.bat clean build'
             }
         }
 
         stage('Test') {
             steps {
-                bat './gradlew test'
+                bat 'gradlew.bat test'
             }
             post {
                 always {
