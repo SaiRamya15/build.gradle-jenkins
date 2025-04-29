@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: '', branch: 'main'
+                git url: 'https://github.com/SaiRamya15/build.gradle-jenkins.git', branch: 'main'
             }
         }
 
